@@ -1,0 +1,10 @@
+div(id='page-header')
+    nav(class='navbar navbar-default navbar-fixed-top')
+        div(class='col-md-2 hidden-md-down')
+            a(class='btn btn-primary', href='/youtube')
+                img(class='logo', src='/images/logo.svg')
+        div(class='col-md-2 hidden-md-down note')
+            span
+                select(class='form-control' , id='regionSelector', onchange="location.href='/youtube/region/' + this.options[this.selectedIndex].value")
+                    each el in countryList
+                        option(value=el.code selected=(el.code === region)) #{el.name}

@@ -1,0 +1,12 @@
+Done
+
+* no new dependencies added
+* Implemented dropdown search and select by country and switch youtube trends by selected country in shared/header view
+* dom.spec.js - dom end test
+* service.spec.js - service unit test
+* Fixed bug with "empty" cards, it should show a thumbnail image, views, likes and publish date
+* Refactor public/javascripts/youtube.player.js file to follow JS best practices
+* NOTE - i do not use javascript on UI, kept youtube.player.js for evaluation only
+* Eslint jquery config fixed
+
+Lev Savranskiy <levsavranskiy@gmail.com>

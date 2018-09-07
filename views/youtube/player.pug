@@ -1,0 +1,10 @@
+extends ../index
+
+block player
+  div(id='youtube-player')
+    div(id='video-container')
+    iframe(width='100%' height='90%' frameborder='0' allowFullScreen  src=src)
+    div(class='controls')
+      a(class='btn btn-primary', href='/youtube') < Back to Trends
+      //we do not need js for this view
+      //script(src='/javascripts/youtube.player.js')
